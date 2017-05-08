@@ -1,0 +1,50 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+ul,li{
+  list-style: none;
+}
+html,body,.carousel,.img-ct,.img-ct li{
+  height: 100%;
+  width: 100%;
+}
+.carousel{
+  position: relative;
+  overflow: hidden;
+  height:500px;
+}
+.img-ct{
+  position: relative;
+}
+.img-ct li{
+  float: left;
+  position: relative;
+}
+.bullet{
+  position: absolute;
+  bottom: 10px;
+  left: 50%;
+  transform: translateX(-50%);
+}
+.bullet li{
+  display: inline-block;
+  width: 16px;
+  height: 4px;
+  border-radius: 2px;
+  background: #fff;
+  cursor: pointer;
+}
+.bullet li.active{
+  background: #666;
+}
+.cover{
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+}

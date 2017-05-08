@@ -1,0 +1,21 @@
+{
+  "name": "home",
+  "version": "1.0.0",
+  "description": "",
+  "main": "./src/js/bundle.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "webpack"
+  ],
+  "author": "1",
+  "license": "MIT",
+  "devDependencies": {
+    "css-loader": "^0.28.0",
+    "jquery": "^2.1.4",
+    "style-loader": "^0.16.1",
+    "url-loader": "^0.5.8",
+    "webpack": "^2.4.1"
+  }
+}
